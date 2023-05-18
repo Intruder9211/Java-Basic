@@ -1,0 +1,13 @@
+import.java.util.*;
+public class checkIfCondition{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int n = age;
+        if (age>=18){
+            System.out.println("Adult");
+            }
+        else{
+            System.out.println("under age or not Adult");
+            }
+        }
+    }
