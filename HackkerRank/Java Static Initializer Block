@@ -1,0 +1,22 @@
+Input Format
+
+There are two lines of input. The first line contains : the breadth of the parallelogram. The next line contains : the height of the parallelogram.
+
+//SOURCE CODE
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+   public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    int x=sc.nextInt();
+    int y=sc.nextInt();
+    if(x>0 && y>0){
+        System.out.println(x*y);
+    }else{
+      System.out.println("java.lang.Exception: Breadth and height must be positive");  
+    }
+}
+}
